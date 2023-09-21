@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+@media (max-width: 377px) {
+  body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+  }
+  .topbg {
+    width: 100%;
+    background-image: url(../images/bg-header-mobile.png);
+    background-position: center;
+    background-size: cover;
+    height: 22.625rem;
+    position: absolute;
+    top: 0;
+  }
+  .Clogo {
+    content: url(../images/logo.svg);
+    position: relative;
+    top: 50%;
+    left: 35%;
+    transform: translateY(-50%);
+  }
+  .one {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-top: 18.5rem;
+    position: relative;
+  }
+  .HS1 {
+    text-align: center;
+    inline-size: 14.938rem;
+    color: #000000c6;
+  }
+  .one *,
+  .two *,
+  .three *,.four *  {
+    margin-top: 1rem;
+  }
+  .PS1 {
+    font-size: 1.0625rem;
+    text-align: center;
+    inline-size: 20.313rem;
+    position: relative;
+    color: #00000093;
+  }
+  .iOSS1,
+  .MacS1 {
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    border-radius: 3.75rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.0625rem;
+
+    color: white;
+  }
+  .iOSS1 {
+    box-shadow: hsl(172, 69%, 13%) 0px 2px 5px -1px,
+      hsl(172, 69%, 13%) 0px 1px 3px -1px;
+    background-color: hsl(171, 66%, 44%);
+  }
+  .MacS1 {
+    box-shadow: hsl(233, 46%, 33%) 0px 2px 5px -1px,
+      hsl(233, 46%, 33%) 0px 1px 3px -1px;
+    background-color: hsl(233, 100%, 69%);
+  }
+  .two {
+    width: 90%;
+    margin: auto;
+    margin-top: 11.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  .HS2,
+  .two h2,
+  .HS3 {
+    text-align: center;
+    inline-size: 14.938rem;
+    color: #000000c6;
+  }
+  .PS2,
+  .te,
+  .z,
+  .PS3 ,
+  .z{
+    font-size: 1.0625rem;
+    text-align: center;
+    inline-size: 20.313rem;
+    position: relative;
+    color: #00000093;
+  }
+  .compuScreen {
+    background-image: url(../images/image-computer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 360px;
+  }
+  .three {
+    width: 90%;
+    margin: auto;
+    margin-top: 11.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+  }
+  .tabletbg {
+    background-image: url(../images/image-devices.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 360px;
+  }
+  .bckstbg,
+  .snipsitbg,
+  .snaekprev {
+    position: relative;
+    margin-top: 5.25rem;
+  }
+  .bckstbg {
+    content: url(../images/icon-blacklist.svg);
+  }
+  .snaekprev {
+    content: url(../images/icon-preview.svg);
+  }
+  .snipsitbg {
+    content: url(../images/icon-text.svg);
+  }
+  .four {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin-top: 18.5rem;
+    position: relative;
+    margin-bottom: 18.5rem;
+  }
+  .google , .IBM , .micro , .packard, .vectorG{
+    margin-bottom: 5.5rem;
+  }
+
+  .google{
+    content: url(../images/logo-google.png);
+  }
+  .IBM{
+    content: url(../images/logo-ibm.png);
+
+  }
+  .micro{
+    content: url(../images/logo-microsoft.png);
+
+  }
+  .packard{
+    content: url(../images/logo-hp.png);
+
+  }
+  .vectorG{
+    content: url(../images/logo-vector-graphics.png);
+
+  }
+  .five{
+    background-color: #F5F6F8;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    padding-top: 8.5rem;
+    position: relative;
+
+  }
+  .logo{
+    content: url(../images/logo.svg);
+    position: relative;
+    margin-top: -4.25rem;
+    width: 20%;
+  }
+  .five h3{
+    margin-top:  4.25rem;
+  }
+  .logos{
+    width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 4.25rem;
+    margin-bottom: 4.25rem;
+  }
+  .face{
+    content: url(../images/icon-facebook.svg);
+  }
+  .insta{
+    content: url(../images/icon-instagram.svg);
+
+  }
+  
+  .twitter{
+    content: url(../images/icon-twitter.svg);
+
+  }
+
+}
